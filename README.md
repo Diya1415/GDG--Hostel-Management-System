@@ -24,6 +24,7 @@ The AI-Powered Hostel Complaint & Maintenance Management System provides a centr
 Students can easily report issues, while wardens can track, prioritize, and resolve complaints efficiently using AI-powered insights and analytics.
 
 **Key Features**
+
 👨‍🎓*Student Dashboard*
 
 Students can report and track hostel issues through a simple and intuitive interface.
