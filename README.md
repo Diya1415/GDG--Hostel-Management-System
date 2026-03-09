@@ -60,12 +60,12 @@ Features include:
 
  **AI-Powered Capabilities**
 
--> AI-assisted complaint categorization
--> Automatic complaint summaries
--> Priority recommendations for urgent issues
--> Detection of recurring floor-wise problems
--> Complaint heat maps for hostel floors
--> Analytics dashboards showing:
+- AI-assisted complaint categorization
+- Automatic complaint summaries
+- Priority recommendations for urgent issues
+- Detection of recurring floor-wise problems
+- Complaint heat maps for hostel floors
+- Analytics dashboards showing:
    - Most common complaints
    - Category distribution
    - Resolution trends
@@ -84,13 +84,13 @@ Students receive alerts about upcoming work and expected timelines, improving tr
 
 **Technologies Used**
 
--> Frontend : React / Next.js
--> Backend : Node.js
--> AI : Gemini API
--> Authentication : Firebase Authentication
--> Database : Firebase Firestore
--> Notifications : Firebase Cloud Messaging (FCM)
--> Cloud Infrastructure : Google Cloud Platform
+- Frontend : React / Next.js
+- Backend : Node.js
+- AI : Gemini API
+- Authentication : Firebase Authentication
+- Database : Firebase Firestore
+- Notifications : Firebase Cloud Messaging (FCM)
+- Cloud Infrastructure : Google Cloud Platform
 
  **System Workflow**
 
