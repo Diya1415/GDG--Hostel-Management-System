@@ -133,13 +133,16 @@ The goal was to design a real-world AI-assisted solution that improves everyday 
 - More improvements in multilingual support
 
 **License**
+
 This project is developed for educational and hackathon purposes.
 
 **Use Case**
+
 This solution is suitable for:
 - College hostels
 - University residential facilities
 - Any institution requiring structured complaint management
 
  **Conclusion**
+
 The Smart Hostel Complaint Management System replaces outdated manual processes with a transparent, efficient, and AI-driven platform, improving both student experience and hostel administration efficiency.
