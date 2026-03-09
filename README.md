@@ -1,4 +1,4 @@
-AI-Powered Hostel Complaint & Maintenance Management System
+*AI-Powered Hostel Complaint & Maintenance Management System*
 
 A modern AI-driven platform designed to streamline hostel complaint management and improve communication between students and hostel authorities.
 
