@@ -1,4 +1,4 @@
-*AI-Powered Hostel Complaint & Maintenance Management System*
+**AI-Powered Hostel Complaint & Maintenance Management System**
 
 A modern AI-driven platform designed to streamline hostel complaint management and improve communication between students and hostel authorities.
 
@@ -6,7 +6,7 @@ This system replaces manual complaint registers and fragmented communication wit
 
 This project was developed during a Tech Sprint organized by Google Developer Group,Vishveshwaraya Technological University, Belgaum where it was selected among the Top 12 projects.
 
-Problem Statement
+**Problem Statement**
 
 In many college hostels, maintenance issues such as plumbing, electrical faults, cleanliness, infrastructure damage, or internet problems are still managed through manual registers or informal communication channels.
 
@@ -17,14 +17,14 @@ This often leads to:
 - Repeated problems in the same hostel areas
 - No structured data for maintenance planning
 
-Solution
+**Solution**
 
 The AI-Powered Hostel Complaint & Maintenance Management System provides a centralized platform with dedicated dashboards for students and hostel managers.
 
 Students can easily report issues, while wardens can track, prioritize, and resolve complaints efficiently using AI-powered insights and analytics.
 
-Key Features
-👨‍🎓 Student Dashboard
+**Key Features**
+👨‍🎓*Student Dashboard*
 
 Students can report and track hostel issues through a simple and intuitive interface.
 Features include:
@@ -40,7 +40,7 @@ Features include:
  -> Multilingual support:
 English,Hindi, Kannada
 
-🧑‍💼 Warden / Manager Dashboard
+🧑‍💼 *Warden / Manager Dashboard*
 Wardens can efficiently manage complaints and monitor hostel maintenance activities.
 Features include:
  -> Secure admin login
@@ -56,7 +56,7 @@ Features include:
  -> Maintain digital complaint records
  -> Send maintenance notifications to students
 
- AI-Powered Capabilities
+ **AI-Powered Capabilities**
 
 -> AI-assisted complaint categorization
 -> Automatic complaint summaries
@@ -70,7 +70,7 @@ Features include:
 
 These insights help wardens identify systemic problems and improve maintenance planning.
 
-📢 Proactive Maintenance Notifications
+📢 *Proactive Maintenance Notifications*
 Wardens can send advance notifications about maintenance work such as:
 - Plumbing repairs
 - Electrical maintenance
@@ -80,7 +80,8 @@ Notifications can be sent to:
 - Specific rooms
 Students receive alerts about upcoming work and expected timelines, improving transparency.
 
-Technologies Used
+**Technologies Used**
+
 -> Frontend : React / Next.js
 -> Backend : Node.js
 -> AI : Gemini API
@@ -89,7 +90,7 @@ Technologies Used
 -> Notifications : Firebase Cloud Messaging (FCM)
 -> Cloud Infrastructure : Google Cloud Platform
 
- System Workflow
+ **System Workflow**
 
 - Student logs in and submits a complaint
 - AI assists in categorization and prioritization
@@ -98,7 +99,7 @@ Technologies Used
 - Student receives real-time notifications
 - Complaint data contributes to analytics and insights
 
-Use Cases
+**Use Cases**
 
 This system can be used in:
 - College hostels
@@ -106,7 +107,7 @@ This system can be used in:
 - Institutional housing systems
 - Student accommodation platforms
 
- Impact
+**Impact**
 
 This platform helps improve hostel administration by:
 - Reducing complaint resolution time
@@ -115,13 +116,13 @@ This platform helps improve hostel administration by:
 - Identifying recurring maintenance problems
 - Enabling proactive communication for repairs
 
-🏆 Hackathon Context
+🏆 **Hackathon Context**
 
 This project was developed as a project submission to Tech Sprint organized by Google Developer Groups,Vishveshwaraya Technological University,Belgaum where it was selected among the Top 12 projects.
 
 The goal was to design a real-world AI-assisted solution that improves everyday campus life through smarter complaint management.
 
-Future Improvements
+**Future Improvements**
 - Mobile application for students and wardens
 - AI-based image recognition for maintenance issues
 - Integration with campus maintenance teams
@@ -129,14 +130,14 @@ Future Improvements
 - Role-based access for technicians
 - More improvements in multilingual support
 
-License
+**License**
 This project is developed for educational and hackathon purposes.
 
-Use Case
+**Use Case**
 This solution is suitable for:
 - College hostels
 - University residential facilities
 - Any institution requiring structured complaint management
 
- Conclusion
+ **Conclusion**
 The Smart Hostel Complaint Management System replaces outdated manual processes with a transparent, efficient, and AI-driven platform, improving both student experience and hostel administration efficiency.
