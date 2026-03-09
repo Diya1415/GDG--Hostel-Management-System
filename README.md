@@ -29,34 +29,34 @@ Students can easily report issues, while wardens can track, prioritize, and reso
 
 Students can report and track hostel issues through a simple and intuitive interface.
 Features include:
- -> Secure login and authentication
- -> Submit complaints with category and description
- -> Optional image or video upload
- -> Track complaint status
+ - Secure login and authentication
+ -  Submit complaints with category and description
+ -  Optional image or video upload
+ -  Track complaint status
     - Pending
     - In Progress
     - Resolved
- -> Real-time notifications for updates
- -> Submit feedback after issue resolution
- -> Multilingual support:
+ -  Real-time notifications for updates
+ - Submit feedback after issue resolution
+ - Multilingual support:
 English,Hindi, Kannada
 
 🧑‍💼 *Warden / Manager Dashboard*
 
 Wardens can efficiently manage complaints and monitor hostel maintenance activities.
 Features include:
- -> Secure admin login
- -> Floor-wise and hostel-wise complaint management
- -> Default view for today’s complaints
- -> Advanced filtering by:
+ - Secure admin login
+ -  Floor-wise and hostel-wise complaint management
+ - Default view for today’s complaints
+ -  Advanced filtering by:
     - Date
     - Floor
     - Category
     - Status
- -> Update complaint status and add remarks
- -> Upload resolution proof (image/video)
- -> Maintain digital complaint records
- -> Send maintenance notifications to students
+ - Update complaint status and add remarks
+ -  Upload resolution proof (image/video)
+ -  Maintain digital complaint records
+ - Send maintenance notifications to students
 
  **AI-Powered Capabilities**
 
