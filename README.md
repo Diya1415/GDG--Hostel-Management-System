@@ -1,10 +1,10 @@
- AI-Powered Hostel Complaint & Maintenance Management System
+AI-Powered Hostel Complaint & Maintenance Management System
 
 A modern AI-driven platform designed to streamline hostel complaint management and improve communication between students and hostel authorities.
 
 This system replaces manual complaint registers and fragmented communication with a centralized digital platform powered by AI and cloud technologies.
 
-This project was developed during a Tech Sprint organized by Google Developer Groups, where it was selected among the Top 12 projects.
+This project was developed during a Tech Sprint organized by Google Developer Group,Vishveshwaraya Technological University, Belgaum where it was selected among the Top 12 projects.
 
 Problem Statement
 
