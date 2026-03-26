@@ -1,0 +1,85 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Student {
+  id          String      @id @default(uuid())
+  name        String
+  roomNumber  String
+  floorNumber String
+  usn         String      @unique
+  phone       String
+  email       String?
+  password    String
+  hostelName  String
+  createdAt   DateTime    @default(now())
+  updatedAt   DateTime    @updatedAt
+  complaints  Complaint[]
+}
+
+model Warden {
+  id         String   @id @default(uuid())
+  name       String
+  phone      String   @unique
+  password   String
+  hostelName String
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+}
+
+model Complaint {
+  id          String      @id @default(uuid())
+  title       String
+  description String
+  category    String
+  subCategory String?
+  priority    String      @default("NORMAL")
+  status      String      @default("PENDING")
+  mediaType   String?
+  mediaUrl    String?
+  studentId   String
+  hostelName  String
+  floor       String
+  createdAt   DateTime    @default(now())
+  updatedAt   DateTime    @updatedAt
+  student     Student     @relation(fields: [studentId], references: [id])
+  statusLogs  StatusLog[]
+  feedback    Feedback?
+}
+
+model Feedback {
+  id          String   @id @default(uuid())
+  rating      Int      @default(0)
+  comment     String?
+  complaintId String   @unique
+  createdAt   DateTime @default(now())
+  complaint   Complaint @relation(fields: [complaintId], references: [id])
+}
+
+model StatusLog {
+  id             String    @id @default(uuid())
+  complaintId    String
+  previousStatus String
+  newStatus      String
+  changedBy      String
+  remarks        String?
+  timestamp      DateTime  @default(now())
+  complaint      Complaint @relation(fields: [complaintId], references: [id])
+}
+
+model MaintenanceNotification {
+  id          String    @id @default(uuid())
+  hostelName  String
+  floor       String?   // Optional: All floors if null
+  roomNumber  String?   // Optional: All rooms if null
+  category    String
+  description String
+  timeline    String    // choices: today, 1h, 2h, tomorrow, 2days, custom
+  scheduledAt DateTime?
+  createdAt   DateTime  @default(now())
+}
